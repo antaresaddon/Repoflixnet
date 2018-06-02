@@ -1,0 +1,55 @@
+{
+  "id": "pelispedia",
+  "name": "PelisPedia",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "fanart": "http://i.imgur.com/9QbyJrf.jpg",
+  "thumbnail": "pelispedia.png",
+  "banner": "pelispedia.png",
+  "categories": [
+    "movie",
+    "tvshow",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 3,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Sin color",
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    },
+    {
+      "id": "orden_episodios",
+      "type": "bool",
+      "label": "Mostrar los episodios de las series en orden descendente",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

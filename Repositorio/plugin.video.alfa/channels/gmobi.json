@@ -1,0 +1,39 @@
+{
+  "id": "gmobi",
+  "name": "gmobi",
+  "active": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "http://gnula.mobi/wp-content/uploads/2016/08/Untitled-6.png",
+  "banner": "",
+  "categories": [
+    "movie",
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    },
+    {
+      "id": "include_in_newest_castellano",
+      "type": "bool",
+      "label": "Incluir en Novedades - Castellano",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_latino",
+      "type": "bool",
+      "label": "Incluir en Novedades - Latino",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

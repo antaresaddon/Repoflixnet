@@ -1,0 +1,26 @@
+{
+  "id": "elitetorrent",
+  "name": "Elite Torrent",
+  "active": true,
+  "adult": false,
+  "language": ["cast"],
+  "thumbnail": "elitetorrent.png",
+  "banner": "elitetorrent.png",
+  "categories": [
+    "torrent",
+    "movie",
+    "tvshow",
+    "documentary",
+    "vos"
+  ],
+  "settings":[
+    {
+      "id": "include_in_newest_torrent",
+      "type": "bool",
+      "label": "Incluir en Novedades - Torrent",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}
