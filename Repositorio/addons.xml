@@ -51,3 +51,38 @@
   <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
   </extension>
 </addon>
+
+<addon id="plugin.video.flixiptv"
+       name="flixiptv"
+       version="1.2"
+       provider-name="flixiptv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/antaresaddon/Repoflixnet/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/antaresaddon/Repoflixnet/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Repoflixnet/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>Todo lo que esta en este addon es totalmente gratis y sacado de terceros en la web.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
