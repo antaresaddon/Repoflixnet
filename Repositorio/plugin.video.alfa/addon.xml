@@ -35,6 +35,19 @@
     <email>my@email.com</email>
     <source>https://github.com/alfa-addon/addon</source>
   </extension>
+  
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/antaresaddon/Repoflixnet/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/antaresaddon/Repoflixnet/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Repoflixnet/master/Repositorio/</datadir>
+    </extension>
+	
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Mi</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
   <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
   </extension>
 </addon>
